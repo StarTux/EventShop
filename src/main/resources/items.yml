@@ -1,0 +1,14 @@
+egg:
+  ==: org.bukkit.inventory.ItemStack
+  type: EGG
+currency:
+  ==: org.bukkit.inventory.ItemStack
+  type: STICK
+  amount: 42
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - §0§kTest Currency
+    enchants:
+      DURABILITY: 10

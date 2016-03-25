@@ -1,0 +1,14 @@
+test:
+  Title: This is a test
+  Currency: Test Currency
+  items:
+  - Icon: egg
+    Currency: Test Currency
+    Price: 42
+    Description: |-
+      &9Have a yummy egg.
+      &9Hmmm, eggs.
+    Items:
+    - egg
+    Commands:
+    - tell %player% Enjoy your yummy egg!

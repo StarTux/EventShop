@@ -1,0 +1,21 @@
+name: EventShop
+description: A shop that trades a currency item for rewards
+author: StarTux
+version: 0.1
+main: com.winthier.eventshop.EventShopPlugin
+depend: []
+commands:
+  eventshop:
+    description: Admin interface
+    permission: eventshop.eventshop
+    usage: |-
+      Usage: /EventShop <subommand> [arguments]
+      /EventShop ListShops - List all shops
+      /EventShop StoreItem <Key> - Store a named item
+      /EventShop LoadItem <Key> - Load a named item
+      /EventShop OpenShop <Player> <Shop> - Make a player open a shop
+      /EventShop Reload - Reload all configuration files
+permissions:
+  eventshop.eventshop:
+    description: Use the /eventshop command
+    default: op
